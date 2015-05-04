@@ -4,26 +4,19 @@
 
  <head>
     <meta charset="utf-8">
-    <title>Reload The Web | My Personal Home Page</title>
+    <title>Reload The Web | Web Developer | iOS Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Asif Ali M Portfolio page ">
+    <meta name="description" content="My iOS protfolio site">
     <meta name="author" content="Asif Ali M">
-  <meta name="keywords" content="Asif Ali M, salesforce, 401, 501,  php developer,  jQuery Developer, symfony developer, symfony, zend , php , iOS app developer, javascript developer, force.com, angular, nodejs, node js, jquery, integration, analytics, big data">
+  <meta name="keywords" content="Asif Ali M, php developer,  jQuery Developer, symfony developer, symfony consulting firm, zend consulting firm, php consulting firm, iOS app developer">
   
 
     <!-- Le styles -->
     <link href="http://krazzyapps.com/css/bootstrap.css" rel="stylesheet">
-    <link href="js/zrssfeed/example_ticker.css" rel="stylesheet" type="text/css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="js/zrssfeed/jquery.zrssfeed.min.js" type="text/javascript"></script>
-    <script src="js/zrssfeed/jquery.vticker.js" type="text/javascript"></script>
-    
     <style type="text/css">
       body {
         padding-top: 20px;
         padding-bottom: 40px;
-        
-
       }
 
       /* Custom container */
@@ -33,7 +26,7 @@
 
       }
       .container-narrow > hr {
-        margin: 20px 0;
+        margin: 30px 0;
       }
       .footer {
         margin-top: 100px;
@@ -41,7 +34,7 @@
 
       /* Main marketing message and sign up button */
       .jumbotron {
-        margin: 20px 0;
+        margin: 60px 0;
         /*text-align: center;*/
       }
       .jumbotron h1 {
@@ -53,12 +46,9 @@
         padding: 14px 24px;
       }
 
-      h3 {
-         line-height: 1;
-      }
       /* Supporting marketing content */
       .marketing {
-        margin: 2px 0;
+        margin: 60px 0;
       }
       .marketing p + h4 {
         margin-top: 28px;
@@ -79,13 +69,12 @@
   </head>
 
   <body>
-    
+
     <div class="container-narrow">
 
       <div class="masthead">
-     <!-- <img src="img/sfdev.png" title="Salesforce Certification" align="right"/> -->
+     
         <h3 class="muted">Reload The Web</h3>
-
       </div>
    <hr>
 
@@ -93,7 +82,7 @@
       <div class="jumbotron">
 
         <div style="width:350px;float:left;">
-            <!-- <h1>Asif Ali M</h1> -->
+            <h1>Asif Ali M</h1>
 
         </div>
 
@@ -110,24 +99,12 @@
               <a href="http://www.zend.com/en/yellow-pages#show-ClientCandidateID=ZEND015271" target="_blank">
                 <img src="img/zce.jpg" width="32" height="32" title="Zend Certification"/>
               </a>
-
-              <a href="http://certification.salesforce.com/certification-detail?conId=003G000001r9imQIAQ" target="_blank">
-                <img src="img/sfdev.png" width="32" height="32" title="Salesforce Certification"/>
-              </a>
          </div>
-        <p class="lead">I am a developer with hands on experience on Salesforce, Javascript, PHP and iOS. I am equally competent in these technologies. <br>
-    My primary skills inclue salesforce, force.com, Apex, Javascript, VisualForce, HTML5, jQuery, AngularJS, NodeJS, PHP,  Symfony, Zend framework, MySql, MongoDB, Objective C, Xcode and Apache</p>
+        <p class="lead">I am a developer with hands on experience on PHP, Javascript, Salesforce and iOS. I am equally competent in these technologies. <br>
+    My primary skills inclue PHP, Objective C, Apex, Javascript, VisualForce, HTML5, jQuery, AngularJS, NodeJS, Symfony, Zend framework, MySql, MongoDB, Xcode and Apache</p>
 
     
       </div>
-
-      <div class="row-fluid marketing" style="clear:both;">
-
-      <h3>Recent Posts</h3> 
-        <div id="ticker1"></div>
-
-     
-    </div>
 
   <div class="row-fluid marketing" style="clear:both;">
        <div class="span6">
@@ -156,11 +133,9 @@
 </div>
 
 
-
-
      <div class="footer">
             <hr>
-        <span id="cr1" class="span3" style="margin-left:0">&copy; Reload The Web 2007 - 2013  </span>  <span style="text-align: right; width: 390px" class="span4">Proudly hosted on <a href="http://pages.github.com/" title="GitHb Pages" target="_blank">GitHub Pages</a> </span>
+        <span class="span3" style="margin-left:0">&copy; Reload The Web 2007 - 2013  </span>  <span style="text-align: right; width: 390px" class="span4">Proudly hosted on <a href="http://pages.github.com/" title="GitHb Pages" target="_blank">GitHub Pages</a> </span>
     
       </div>
 
@@ -178,19 +153,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
-
-<script type="text/javascript">
-$(document).ready(function () {
-  $('#ticker1').rssfeed('http://blog.reloadtheweb.com/feed',{header: false, dateformat: 'MMMM dd, yyyy'}, function(e) {
-    $(e).find('div.rssBody').vTicker({ showItems: 1 });
-  });
-
-//Set copyright message
-var yr  = new Date(); 
-$('#cr1').html('&copy; Reload The Web 2007 - '+yr.getFullYear());
-
-});
 </script>
 
   </body>
